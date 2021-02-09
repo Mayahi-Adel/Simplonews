@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="./asset/favicon.jpg" />
-    <title>Simplonews</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+  <head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./assets/Logo Simplon.jpg" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bienvenue</title>
+  </head>
+  <body>
     <div id="mainLoginPage">
       <header>
-        <img src="./assets/photoForm.jpg" width="100%"  alt="image tech" />
-        <h1>SIMPLONNEWS</h1>
+        <div>
+          <img src="./assets/photoForm.jpg" alt="image tech" />
+          <h1>SIMPLONEWS</h1>
+        </div>
       </header>
       <section>
-        <h2>CONNECTEZ-VOUS</h2> 
-        <form action="">
-            <input type="mail" />
-            <input type="password" />                
-            <a href="#">S'inscrire</a>
-            <button>ENVOI</button>
-        </form>
+        <h2>CONNECTEZ-VOUS</h2>
+        <div id="message"><p></p></div>
+        <div>
+          <form id="identifiant" action="">
+            <input id="email" value="MAIL" name="mail" type="mail" onclick="saisie('MAIL',this.id)" onmouseout="retablir('MAIL',this.id)" onblur="controle('MAIL', this.id)"/>
+            <input id="mdp" value="MOT DE PASSE" name="password" type="password" onclick="saisie('MOT DE PASSE',this.id)" onmouseout="retablir('MOT DE PASSE',this.id)" onblur="controle('MOT DE PASSE', this.id)"/>
+            <input id="button" value="ENVOYER" name="button" type="button" onclick="envoyer()">
+            <div>Pas de compte ? <a href="#">S'inscrire</a></div>
+            
+          </form>
+        </div>
       </section>
     </div>
+    <script src="./js/index.js"></script>
   </body>
 </html>

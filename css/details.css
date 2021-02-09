@@ -1,0 +1,166 @@
+
+h1{
+    font-size: 2.8rem;
+    color :white;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+h2{
+    font-size: 2rem;
+    color: #ce0033;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2;
+}
+
+
+  /* SECTION TITRE */
+
+.contentTitle {
+    background-image : url("images/photoArticle1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  
+   
+}
+.login {
+    margin:10px;
+    max-width: 70%;
+}
+.author{
+    font-weight: 600;
+    line-height: 1;
+    font-size: 1rem;
+}
+
+.LoginName {
+    align-self: flex-end;
+    margin-right: 20px ;
+}
+
+.tags span{
+    border: 1px solid black;
+    background-color:#ce0033 ;
+    color: white;
+    margin-left: 22px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+      
+}
+
+/* FLECHE RETURN  */
+
+
+.return {
+    width: 30px; 
+    height: 30px;
+    margin: 20px;
+    margin-right:150px ;
+    
+}
+/*  ARTICLE */
+
+article {
+    padding:30px;
+    margin-bottom: 30px;
+   
+}
+
+article :first-child{
+    font-weight: 900;
+}
+
+.portrait {
+    width: 15%;
+    border-radius: 100%;
+    margin: 10px;   
+}
+
+h3 {
+    margin: 30px;
+    text-align: center;
+    color: #ce0033;
+    font-size: 1.5rem;
+    
+}
+
+.contentAuthor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#author {
+    color:#ce0033 ;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #ce0033;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+    gap: 10px;
+}
+.logoFooter {
+    max-width: 50%;
+}
+.links{
+    display: flex;
+    
+}
+
+footer a {
+    color : white;
+    text-decoration: none;
+    margin:10px;
+}
+
+
+.icones img{
+    max-width: 5%;
+    margin-bottom: 10px;
+       
+}
+
+@media (min-width:550px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size:3rem;
+    }
+}
+
+@media (min-width:800px) {
+    h1 {
+        font-size: 6rem;
+    }
+    h2 {
+        font-size: 4.5rem
+    }
+    .tags span {
+        font-size: 2rem;
+    }
+    article {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
