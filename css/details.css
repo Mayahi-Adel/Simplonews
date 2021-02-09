@@ -1,3 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+   
+    color: rgb(32, 32, 32);
+}
 
 h1{
     font-size: 2.8rem;
@@ -20,10 +34,12 @@ p {
 }
 
 
+
+
   /* SECTION TITRE */
 
 .contentTitle {
-    background-image : url("images/photoArticle1.jpg");
+    background-image : url("../images/photoArticle1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -133,7 +149,10 @@ footer a {
     margin:10px;
 }
 
-
+.icones{
+   
+    text-align: center;
+}
 .icones img{
     max-width: 5%;
     margin-bottom: 10px;
