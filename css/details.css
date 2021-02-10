@@ -52,6 +52,7 @@ p {
 .login {
     margin:10px;
     max-width: 70%;
+    cursor: pointer;
 }
 .author{
     font-weight: 600;
