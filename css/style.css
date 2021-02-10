@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    color: rgb(32, 32, 32);
+}
+
+h1{
+    font-size: 3.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.2rem;
+}
+
+#mainLoginPage{
+    background-color: #ce0033;
+}
+
+#mainLoginPage>header>div>h1{
+    color: white;
+    position: absolute;
+}
+#mainLoginPage>header>div:first-child{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+#mainLoginPage img:first-child{
+    height: auto;
+    width: 100%;
+}
+#mainLoginPage section>h2{
+    margin: 5% 0 5% 0;
+    display: flex;
+    justify-content: center;
+}
+#mainLoginPage section div form{
+    display: flex;
+    flex-direction: column;
+}
+#mainLoginPage form input{
+    width: 50%;
+    margin-left: 25%;
+    border: #ffffff 2px solid;
+}
+#mainLoginPage form>*{
+    margin: 5% 0 5% 0;
+    display: flex;
+    justify-content: center;
+}
+#mainLoginPage form>#button{
+    width: 20%;
+    margin-left: 40%;
+    padding: 2%;
+}
+
+
+
+
+
+/* * {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: #383535;
+} */
+
