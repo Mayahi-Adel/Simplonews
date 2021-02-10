@@ -9,6 +9,7 @@
     <title>Bienvenue</title>
   </head>
   <body>
+    <div class="wrapper">
     <div id="mainLoginPage">
       <header>
         <div>
@@ -23,12 +24,13 @@
           <form id="identifiant" action="">
             <input id="email" value="MAIL" name="mail" type="mail" onclick="saisie('MAIL',this.id)" onmouseout="retablir('MAIL',this.id)" onblur="controle('MAIL', this.id)"/>
             <input id="mdp" value="MOT DE PASSE" name="password" type="password" onclick="saisie('MOT DE PASSE',this.id)" onmouseout="retablir('MOT DE PASSE',this.id)" onblur="controle('MOT DE PASSE', this.id)"/>
-            <input id="button" value="ENVOYER" name="button" type="button" onclick="envoyer()">
+            <input id="button" value="Se connecter" name="button" type="button" onclick="envoyer()">
             <div>Pas de compte ? <a href="#">S'inscrire</a></div>
             
           </form>
         </div>
       </section>
+    </div>
     </div>
     <script src="./js/index.js"></script>
   </body>

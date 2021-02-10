@@ -27,7 +27,7 @@ function controle(txt, id_controle) {
     if (id_controle=="email") {
         if (document.getElementById(id_controle).value.indexOf('@')==-1 || document.getElementById(id_controle).value.indexOf('.')==-1 ) {
             document.getElementById(id_controle).style.border='blue 2px solid';
-            document.getElementById("message").innerText = "Votr mail ne semble pas correct";
+            document.getElementById("message").innerText = "Votre mail ne semble pas correct";
             mail = false;
         }
         else{
