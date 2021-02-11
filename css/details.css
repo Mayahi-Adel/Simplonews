@@ -96,6 +96,7 @@ article {
 
 article :first-child{
     font-weight: 900;
+    text-align: justify;
 }
 
 .portrait {
