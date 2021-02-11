@@ -47,7 +47,7 @@ function generateDetailArticle(articles){
     }
     
     titlecontain.textContent = `${title}`;
-    contentTitle.getElementsByClassName.backgroundImage = `${img}`;
+    contentTitle.style.backgroundImage = `url('${img}')`;
 
     contentArticle.innerHTML = `
         <article>
