@@ -23,9 +23,9 @@
           <div id="message"><p></p></div>
           <div>
               <form id="identifiant" >
-                <input id="email" value="MAIL" name="mail" type="mail" onclick="saisie('MAIL',this.id)" onmouseout="retablir('MAIL',this.id)" onblur="controle('MAIL', this.id)"/>
-                <input id="mdp" value="MOT DE PASSE" name="password" type="password" onclick="saisie('MOT DE PASSE',this.id)" onmouseout="retablir('MOT DE PASSE',this.id)" onblur="controle('MOT DE PASSE', this.id)"/>
-                <input id="button" value="Se connecter" name="button" type="button" onclick="envoyer()">
+                <input id="email" value="E-mail" name="mail" type="mail" onclick="saisie('MAIL',this.id)" onmouseout="retablir('MAIL',this.id)" onblur="controle('MAIL', this.id)"/>
+                <input id="mdp" value="mot de passe" name="password" type="password" onclick="saisie('MOT DE PASSE',this.id)" onmouseout="retablir('MOT DE PASSE',this.id)" onblur="controle('MOT DE PASSE', this.id)"/>
+                <input id="button" class="button" value="se connecter" name="button" type="button" onclick="envoyer()">
                 <div>Pas de compte ? <a onclick="openInscription()">S'inscrire</a></div>
               </form>
           </div>
@@ -35,11 +35,11 @@
           <div id="msg_error"><p></p></div>
           <div id="inscription">
             <form id="inscription">
-              <input id="firstName" value="Prenom" name="Prenom" type="text" onclick="saisie('Prenom',this.id)" onmouseout="retablir('Prenom',this.id)" onblur="controle('Prenom', this.id)"/>
+              <input id="firstName" value="Prénom" name="Prenom" type="text" onclick="saisie('Prenom',this.id)" onmouseout="retablir('Prenom',this.id)" onblur="controle('Prenom', this.id)"/>
               <input id="lastName" value="Nom" name="Nom" type="text" onclick="saisie('Nom',this.id)" onmouseout="retablir('Nom',this.id)" onblur="controle('Nom', this.id)"/>
-              <input id="Email" value="MAIL" name="mail" type="mail" onclick="saisie('MAIL',this.id)" onmouseout="retablir('MAIL',this.id)" onblur="controle('MAIL', this.id)"/>
-              <input id="Mdp" value="MOT DE PASSE" name="password" type="password" onclick="saisie('MOT DE PASSE',this.id)" onmouseout="retablir('MOT DE PASSE',this.id)" onblur="controle('MOT DE PASSE', this.id)"/>
-              <input id="btn" value="Se connecter" name="button" type="button" onclick="addNewUser()">
+              <input id="Email" value="E-mail" name="mail" type="mail" onclick="saisie('MAIL',this.id)" onmouseout="retablir('MAIL',this.id)" onblur="controle('MAIL', this.id)"/>
+              <input id="Mdp" value="Mot de passe" name="password" type="password" onclick="saisie('MOT DE PASSE',this.id)" onmouseout="retablir('MOT DE PASSE',this.id)" onblur="controle('MOT DE PASSE', this.id)"/>
+              <input id="btn" class="button" value="s'inscrire" name="button" type="button" onclick="addNewUser()">
             </form>
           </div>
 

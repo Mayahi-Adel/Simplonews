@@ -31,7 +31,7 @@ function generateArticles(data, token) {
                 <img src="${data.articles[0].img}" alt="" >
                 <figcaption>
                     <h3>${data.articles[0].title}</h3>
-                    <p>${data.articles[0].resume.substr(0, 130)}... </p>
+                    <p>${data.articles[0].resume.substr(0, 300)}... </p>
                 </figcaption>
             </figure>
         </a>`

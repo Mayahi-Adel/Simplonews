@@ -133,4 +133,10 @@ function openInscription(){
   document.querySelector("#sec_inscription").style.visibility="visible";
 }
 
+// Fonction qui cache le formulaire d'inscription
+function closeInscription(){
+    document.querySelector("#sec_inscription").style.visibility="hidden";
+
+}
+
 

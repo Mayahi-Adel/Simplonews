@@ -5,6 +5,7 @@
 html {
   font-size: 62.5%;
   font-family: 'Lato', sans-serif;
+  background-image: url('images/background_index.jpg');
 }
 body {
   color: rgb(32, 32, 32);
@@ -25,7 +26,7 @@ p {
   background-color: #ce0033;
 }
 body {
-  background: url('images/background_index.jpg');
+  
 }
 
 .wrapper {
@@ -56,9 +57,10 @@ body {
   flex-direction: column;
 }
 #mainLoginPage form input {
-  width: 50%;
-  margin-left: 25%;
-  border: #ffffff 2px solid;
+  
+  
+  padding-left: 20px;
+  padding-right: 20px;
 }
 #mainLoginPage form > * {
   margin: 5% 0 5% 0;
@@ -66,12 +68,17 @@ body {
   justify-content: center;
   text-align: center;
 }
- #button {
-  width: 50%;  
+.button {
+  width: 100%;  
   padding: 2%;
   color: #ffffff;
   background-color: black;
   border-radius: 4px;
+  
+}
+
+#btn {
+  margin-bottom: 20px;
 }
 
 
