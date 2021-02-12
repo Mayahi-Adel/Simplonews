@@ -20,7 +20,7 @@ function controle(txt, id_controle) {
     var longueur = document.getElementById(id_controle).value.length;
     
     if (id_controle=="email") {
-        if (document.getElementById(id_controle).value.indexOf('@')==-1 || document.getElementById(id_controle).value.indexOf('.')==-1 ) {
+        if (document.getElementById(id_controle).value.indexOf('@')==-1 || document.getElementById(id_controle).value.indexOf('.')== -1 ) {
             document.getElementById(id_controle).style.border='blue 2px solid';
             document.getElementById("message").classList.add("alert", "alert-danger");
             document.getElementById("message").textContent = "Votre mail ne semble pas correct";

@@ -4,10 +4,11 @@
 }
 html {
   font-size: 62.5%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 body {
   color: rgb(32, 32, 32);
+  
 }
 
 h1 {
@@ -23,7 +24,13 @@ p {
 #mainLoginPage {
   background-color: #ce0033;
 }
+body {
+  background: url('images/background_index.jpg');
+}
 
+.wrapper {
+  background-image: url('images/background_index.jpg');
+}
 #mainLoginPage > header > div > h1 {
   color: white;
   position: absolute;
@@ -59,13 +66,14 @@ p {
   justify-content: center;
   text-align: center;
 }
-#mainLoginPage form > #button {
+ #button {
   width: 50%;  
   padding: 2%;
   color: #ffffff;
   background-color: black;
   border-radius: 4px;
 }
+
 
 /* Messages d'alerte */
 
@@ -113,8 +121,8 @@ p {
     min-height: 100%;
     max-width: 30%;
     box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
-    border-radius: 5px;
-    border: black solid 2px;
+    
+    
   }
   .wrapper {
     display: flex;
