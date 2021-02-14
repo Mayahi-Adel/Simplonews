@@ -7,15 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bienvenue</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
     
   </head>
   <body>
+    
     <div class="wrapper">
     <div id="mainLoginPage">
       <header>
         <div>
           <img src="./assets/photoForm.jpg" alt="image tech" />
-          <h1>SIMPLONEWS</h1>
+          <h1>SimplonNews</h1>
         </div>
       </header>
       <section>
@@ -26,7 +29,7 @@
                 <input id="email" value="E-mail" name="mail" type="mail" onclick="saisie('MAIL',this.id)" onmouseout="retablir('MAIL',this.id)" onblur="controle('MAIL', this.id)"/>
                 <input id="mdp" value="mot de passe" name="password" type="password" onclick="saisie('MOT DE PASSE',this.id)" onmouseout="retablir('MOT DE PASSE',this.id)" onblur="controle('MOT DE PASSE', this.id)"/>
                 <input id="button" class="button" value="se connecter" name="button" type="button" onclick="envoyer()">
-                <div>Pas de compte ? <a onclick="openInscription()">S'inscrire</a></div>
+                <div>Pas de compte ?  <a onclick="openInscription()" onclick=closeInscription()>S'inscrire</a></div>
               </form>
           </div>
       </section>

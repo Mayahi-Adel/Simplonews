@@ -47,7 +47,7 @@ function generateArticles(data, token) {
     let concat = "";
 
 
-    for (let i = 1; i < data.articles.length; i++) {
+    for (let i = 1; i <5; i++) {
         concat += `
         <a onclick = "msgError(${data.articles[i].id}, '${token}')">
             <figure>

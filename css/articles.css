@@ -1,26 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 html {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 h1 {
     font-size: 40px;
-    color: white;
+    color: black;
 }
 h3{
     padding-bottom: 5px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #ce0033;
     
 }
 
+/* HEADER + NAV */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header img {
+    max-width: 15%;
+    margin: 15px;
+    margin-left: 40px;
+}
 
+nav {
+    width: 100%;
+    background-image: linear-gradient(to right, #000000, #171717, #262626, #373737, #484848);
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    
+    
+}
+nav a {
+    color: white;
+    padding: 15px 15px;
+    font-size: 10px;
+    font-weight: 400px;
+    text-transform: uppercase;
+}
+
+.login {
+     
+    cursor: pointer;
+    max-width: 35%;
+}
+/* ARTICLES */
 #article_page{
     width: 100%;
     height: 250px;
-    background-color: #ce0033;
+    background: #ce0033
 }
 #article_page > h1{
-    padding: 40px 0 0 30px;
+    padding: 30px 0 0 30px;
 }
 
 #div_login{
@@ -48,16 +86,20 @@ h3{
     max-height: 100%;
 }
 
+figure {
+    border: 1px solid red;
+    
+}
 figure > img {
     
     object-fit: cover;
     max-width: 100%;
     max-height: 100%;
    
-} 
+}  
 figcaption{
     padding: 7px;
-    margin-bottom: 50px;
+    
     height: auto;
   
 }
@@ -72,16 +114,15 @@ a {
     top: -140px;
     width: 90%;
     left: 5%;
-    border-radius: 15px;
-    margin-top: 50px;
+    margin-top: 150px;
     
 }
 
 #list_products > a > figure{
-    /* Ò */
+    
     background-color: #F3EFEF;
     margin-bottom: 10px;
-    border-radius: 15px;
+    
 }
 
 /* FOOTER */
@@ -136,6 +177,10 @@ footer a {
         left: 93%;
     }
 
+    nav a {
+        font-size: 16px;
+    }
+
     #first_article{
         top: -160px;
         left: 15%;
@@ -155,7 +200,7 @@ footer a {
         flex-wrap: wrap;
         top: -100px;
         left: 5%;
-        border-radius: 15px;
+        
         
     }
     #list_products > a {

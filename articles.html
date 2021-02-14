@@ -3,22 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    
     <link rel="stylesheet" href="./css/articles.css">
     <title>Liste des articles</title>
     <script src = "js/articles.js"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
 
 </head>
 <body>
+
+    <header>
+        <img src="images/logoheader.svg" alt="logo">
+        
+        <div class="LoginName">
+
+            <img class = "login" src="./images/login.svg " width="40px" height="40px" alt="deconnexion" onclick="distroy_cnx()">
+            <!-- <p class="author">Antoine <br>Gayosco</p> -->
+        </div>
+    </header>
+
+    <nav>
+        <a href="#">Evénements</a>
+        <a href="#">Inclusion</a>
+        <a href="#">Témoignages</a>
+        <a href="#">Simplon off</a>
+    </nav>
     <div id="msg_error"></div> 
     <header id="article_page">
-        <h1>SIMPLONEWS</h1>
-        <div id="div_login">
-            <img src="./assets/login.svg" width="40px" height="40px" alt="deconnexion" onclick="distroy_cnx()">
-            <p>UserName</p>
-        </div>
+        
+       
     </header>
 
     <section id="first_article">
@@ -34,6 +48,8 @@
             </a> -->
         
     </section>
+
+    
 
     <section id="list_products">
         <!-- <h2>Articles</h2> -->

@@ -6,7 +6,7 @@
 
 html{
     font-size: 62.5%;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 body{
    
@@ -36,7 +36,16 @@ p {
     line-height: 2;
 }
 
+/* Nav */
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav img {
+    max-width: 15%;
+    margin: 20px;
+}
 
 
   /* SECTION TITRE */
@@ -53,11 +62,7 @@ p {
   
    
 }
-.login {
-    margin:10px;
-    max-width: 70%;
-    cursor: pointer;
-}
+
 .author{
     font-weight: 600;
     line-height: 1;
@@ -66,7 +71,13 @@ p {
 
 .LoginName {
     align-self: flex-end;
-    margin-right: 20px ;
+
+   
+}
+.LoginName img {
+     
+    cursor: pointer;
+    max-width: 40%;
 }
 
 .tags span{
@@ -169,7 +180,7 @@ footer a {
     margin-bottom: 10px;
        
 }
-
+/* MEDIA QUERIES */
 @media (min-width:550px) {
     h1 {
         font-size: 4rem;

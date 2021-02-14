@@ -4,7 +4,7 @@
 }
 html {
   font-size: 62.5%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   background-image: url('images/background_index.jpg');
 }
 body {
@@ -21,16 +21,24 @@ h2 {
 p {
   font-size: 1.2rem;
 }
-
+.logo {
+  text-align: center;
+  max-width: 20%;
+  margin:15px;
+}
 #mainLoginPage {
   background-color: #ce0033;
+  -webkit-box-shadow: 3px 3px 5px -1px rgba(71,71,71,0.84);
+-moz-box-shadow: 3px 3px 5px -1px rgba(71,71,71,0.84);
+box-shadow: 3px 3px 5px -1px rgba(71,71,71,0.84);
 }
 body {
-  
+  background-image: linear-gradient(to right, #ffffff, #fbfbfb, #f7f7f7, #f4f4f4, #f0f0f0);
 }
 
 .wrapper {
   background-image: url('images/background_index.jpg');
+  padding-bottom: 5%;
 }
 #mainLoginPage > header > div > h1 {
   color: white;
@@ -58,9 +66,10 @@ body {
 }
 #mainLoginPage form input {
   
-  
+  border-radius: 2px;
   padding-left: 20px;
   padding-right: 20px;
+  
 }
 #mainLoginPage form > * {
   margin: 5% 0 5% 0;
@@ -138,6 +147,9 @@ body {
     justify-content: center;
     width: 100%;
     min-height: 100%;
-    padding: 10% 0 10% 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    
   }
 }
